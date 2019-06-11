@@ -1,0 +1,14 @@
+.NotificationsBar {
+    flex: 1;
+    order: 2
+}
+
+.notificationsList {
+    list-style-type: none;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.notificationsList li {
+    padding: 5px 0px;;
+}

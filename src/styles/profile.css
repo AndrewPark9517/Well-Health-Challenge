@@ -1,0 +1,34 @@
+.Profile {
+    flex: 4;
+    order: 1;
+}
+
+.appointmentsList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.appointment {
+    padding: 10px 0px;
+}
+
+.appoitmentHeader {
+    padding-bottom: 5px;
+}
+
+.appointmentContainer {
+    display: flex;
+}
+
+.aptDate, .aptSTime, .aptETime {
+    flex: 1;
+}
+
+.aptNotes {
+    flex: 3;
+}
+
+.appointmentHeader {
+    font-weight: bold;
+}

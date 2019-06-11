@@ -1,0 +1,16 @@
+.MessageBar {
+    flex:1;
+    order: 0;
+}
+
+.messageList {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.messageList .username {
+    font-weight: 500;
+}
+.messageList .latestMessage {
+    margin-left: 10px;
+}

@@ -1,0 +1,33 @@
+.SetAppointment {
+    flex: 4;
+    order: 1;
+}
+
+.setAppointmentForm {
+    display: flex;
+}
+
+.setAppointmentForm * {
+    flex: 1;
+}
+
+.submitButtonContainer{
+    margin-top: 20px;
+}
+
+.submitButton {
+    background-color: rgb(101,153,255);
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.submitButton:hover {
+    cursor: pointer;
+    background-color: rgb(37, 110, 247);
+}
+
+.errorMessage {
+    color: red;
+}
